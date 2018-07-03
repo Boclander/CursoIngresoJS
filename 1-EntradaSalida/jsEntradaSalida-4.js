@@ -4,6 +4,8 @@
 */
 function mostrar()
 {
-	
+	var dato
+	dato=prompt("asd")
+	document.getElementById("FormIngreso")
 }
 
