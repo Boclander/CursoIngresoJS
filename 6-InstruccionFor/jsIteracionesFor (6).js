@@ -2,17 +2,15 @@ function mostrar()
 {
     var numero=prompt("Ingrese un numero.");
     numero=parseInt(numero);
-    var numerosPares;
+    var numerosPares=0;
 
     if (numero %2 != 0){
         numero--;
     }
-    for (var i=numero; i <= numero; i=i-2){
-        console.log(i);
+    for (var i=numero; i <= numero && i > 0; i=i-2){
         numerosPares++;
-        if (i == 0){
-            break;
-        }
+        document.write(" "+i+" ");
     }
+    document.write("<br>"+"Cantidad de números pares: "+numerosPares);
 }
     //FIN DE LA FUNCIÓN
